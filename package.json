@@ -10,6 +10,7 @@
     "url": "https://github.com/DaeCloud/express-utils.git"
   },
   "publishConfig": {
-    "@DaeCloud:registry": "https://npm.pkg.github.com/"
+    "@DaeCloud:registry": "https://npm.pkg.github.com/",
+    "access": "public"
   }
 }
