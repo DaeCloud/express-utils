@@ -1,0 +1,15 @@
+{
+  "name": "@DaeCloud/express-utils",
+  "version": "1.0.0",
+  "description": "Reusable Express response helpers, middleware and error utilities.",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaeCloud/express-utils.git"
+  },
+  "publishConfig": {
+    "@your-org:registry": "https://npm.pkg.github.com/"
+  }
+}
