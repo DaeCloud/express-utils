@@ -1,6 +1,6 @@
 {
   "name": "@DaeCloud/express-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Reusable Express response helpers, middleware and error utilities.",
   "main": "index.js",
   "license": "MIT",
