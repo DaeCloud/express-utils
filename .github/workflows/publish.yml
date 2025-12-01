@@ -23,7 +23,10 @@ jobs:
 
       # 3. Authenticate with GitHub Packages
       - name: Authenticate with GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+        run: |
+          echo "@DaeCloud:registry=https://npm.pkg.github.com" > ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
+
 
       # 4. Install dependencies
       - name: Install dependencies
